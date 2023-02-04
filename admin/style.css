@@ -1,0 +1,199 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+#heading{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inconsolata', monospace;
+}
+
+ table thead tr th {
+     border: black solid 2px;
+ }
+ .nav-item .nav-link{
+     color: rgb(66, 63, 63);
+ }
+ .nav{
+     background-color: #FFAD60;
+ }
+ .footer{
+     background-color: #D9534F;
+ }
+
+ .main-row{
+     background-color: #96CEB4;
+ }
+ .cardeatils{
+     background-color: #FFEEAD;
+ }
+ .trip{
+     background-color: #FFAD60;
+ }
+ .boom{
+     background-color: #D9534F;
+ }
+ .name{
+     padding: 20px;
+     background-color: #cee96b;
+ }
+ .profile{
+     padding: 20px;
+     background-color: #D9534F;
+ }
+ /* .a{
+     background-color: #FF6464;
+
+ }
+ .b{
+background-color: #91C483;
+ }
+ .c{
+background-color: #EEEEEE;
+ }
+ .d{
+background-color: #FFE162;
+ } */
+ .a img{
+margin-left: 70px;
+margin-top:10px
+ }
+.d{
+    margin-top: 10px;
+}
+.feedback{
+    background-color:#FFEEAD;
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.page-footer{
+
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+
+}
+
+
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  a {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+  
+  
+  }
+  a​:hover { color: green; }
+  
+  
+  .h-off:hover{
+   text-decoration: none;
+  }
+  
+  
+  .r{
+    background-color: #D9534F;
+    }
+    
+    .g{
+    background-color: #cee96b;
+    }
+    
+    .rq{
+    background-color: #FFEEAD;
+    } 
+  
+  
+  
+  
+  
+  
+  /* general styling */
+  body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+  }
